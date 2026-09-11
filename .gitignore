@@ -1,0 +1,24 @@
+# Virtual machines / installation media
+*.iso
+*.vdi
+*.vmdk
+*.vhd
+*.vhdx
+*.ova
+*.ovf
+*.vbox
+*.vbox-prev
+
+# Logs / temporary files
+*.log
+*.tmp
+Thumbs.db
+.DS_Store
+
+# Secrets
+.env
+*.key
+*.pem
+credentials*
+password*
+secrets*
