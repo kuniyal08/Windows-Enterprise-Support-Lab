@@ -19,7 +19,7 @@ Hands-on Windows Server and Active Directory administration lab built to practis
 - Create and manage domain users and security groups
 - Join Windows clients to a domain
 - Organise users and computers with Organizational Units
-- Configure Group Policy
+- Configure and troubleshoot Group Policy
 - Manage SMB and NTFS permissions
 - Troubleshoot common domain, DNS, policy, and authentication failures
 - Document support procedures and recovery steps
@@ -40,23 +40,32 @@ Hands-on Windows Server and Active Directory administration lab built to practis
 - [x] Validated domain-user login and group membership
 - [x] Practised password reset and account enable/disable tasks
 - [x] Verified directory objects with PowerShell
-- [ ] Configure Group Policy
+- [x] Configured computer-targeted Group Policy
+- [x] Configured user-targeted Group Policy
+- [x] Reproduced and diagnosed a GPO scope failure
+- [x] Validated effective policy with `gpresult`
+- [x] Created the first support troubleshooting runbook
 - [ ] Configure SMB and NTFS permissions
 - [ ] Introduce and troubleshoot controlled DNS/domain failures
-- [ ] Create support runbooks and recovery procedures
+- [ ] Add further support runbooks and recovery procedures
 
 ## Documentation
 
 - [01 - Lab Setup](docs/01-lab-setup.md)
 - [02 - Active Directory Identity Management](docs/02-active-directory-identity-management.md)
+- [03 - Group Policy Management and Troubleshooting](docs/03-group-policy-management-and-troubleshooting.md)
+
+## Runbooks
+
+- [01 - GPO Not Applying: Incorrect OU Scope](runbooks/01-gpo-not-applying-wrong-ou.md)
 
 ## Evidence
 
-Screenshots documenting the build and validation steps are stored in the [`screenshots/`](screenshots/) directory.
+Screenshots documenting the build, validation, and troubleshooting steps are stored in the [`screenshots/`](screenshots/) directory.
 
 ## Planned Expansion
 
-The lab will continue with Group Policy, permissions, account-lockout scenarios, Windows event logging, controlled break/fix exercises, and support-style runbooks.
+The lab will continue with SMB and NTFS permissions, account-lockout scenarios, Windows event logging, controlled DNS/domain break-fix exercises, and additional support-style runbooks.
 
 ## Scope
 
